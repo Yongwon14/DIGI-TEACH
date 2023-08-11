@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraGuideActivity"
+    android:background="@drawable/bgyellow">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="411dp"
+        android:layout_height="117dp"
+        android:gravity="center"
+        android:text="Camera Guide"
+        android:background="@color/gray2"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.014"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="371dp"
+        android:layout_height="421dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        android:src="@drawable/cameraguidelogo" />
+
+    <Button
+        android:id="@+id/CameraOn"
+        android:layout_width="149dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginEnd="124dp"
+        android:text="Camera On"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

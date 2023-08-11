@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstCreditActivity"
+    android:background="@drawable/splash">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="416dp"
+        android:layout_height="90dp"
+        android:background="#0D2F95"
+        android:gravity="center"
+        android:text="CREDITS"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="266dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="62dp"
+        android:text="Developers"
+        android:gravity="center"
+        android:textColor="@color/purpleCredit"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="353dp"
+        android:layout_height="554dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="28dp"
+        android:background="#800D2D8C"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="52dp"
+        android:text="Yongwon Jang: Lead Developer, Design"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="64dp"
+        android:text="Yeji Kim : Leader, Design, Developer"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="148dp"
+        android:layout_marginEnd="64dp"
+        android:text="Keira Adrianne G. Gutierrez: Design,\n   Presentation"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="64dp"
+        android:text="Reyven Andre F. Villanueva: Design,\n Presentation"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="266dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="72dp"
+        android:gravity="center"
+        android:text="Video Part"
+        android:textColor="@color/purpleCredit"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:layout_width="373dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="16dp"
+        android:text="                    Recorded and Edited by\n
+              Yongwon Jang, and Yeji Kim\n
+               Reyven Andre F. Villanueva,
+                   \n
+               Keira Adrianne G. Gutierrez"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="266dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="72dp"
+        android:gravity="center"
+        android:text="Logo Part"
+        android:textColor="@color/purpleCredit"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <TextView
+        android:layout_width="373dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="464dp"
+        android:layout_marginEnd="16dp"
+        android:text="                             Designed by\n
+              Yongwon Jang, and Yeji Kim\n
+               Reyven Andre F. Villanueva,
+                   \n
+               Keira Adrianne G. Gutierrez"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="160dp"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

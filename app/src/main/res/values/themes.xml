@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DIGITEACH" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.DIGITEACH" parent="Base.Theme.DIGITEACH" />
+
+    <style name="MyButtonStyle" parent="Theme.AppCompat">
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="MyButtonStyle2">
+        <item name="android:background">@color/Orange</item>
+    </style>
+    <style name="MyButtonStyle3">
+        <item name="android:background">@color/ButtonGray</item>
+    </style>
+
+    <color name="ButtonGray">#C0C0C0</color>
+</resources>

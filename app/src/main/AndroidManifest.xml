@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logodt"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logodt"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DIGITEACH"
+        tools:targetApi="31">
+        <activity
+            android:name=".ThirdCreditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FirstCreditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmailGuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageGuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EmailTutorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MessageTutorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CameraTutorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TypingTutorialActivity"
+            android:exported="false"
+            android:windowSoftInputMode="stateVisible|adjustResize"/>
+        <activity
+            android:name=".CameraGuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TypingGuideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChooseCategoriesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondCreditActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

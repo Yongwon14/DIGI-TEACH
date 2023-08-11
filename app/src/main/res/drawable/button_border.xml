@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 테두리를 그리기 위한 shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" /> <!-- 배경색은 투명하게 -->
+            <stroke
+                android:width="4dp"
+                android:color="@android:color/black" /> <!-- 테두리의 색상 -->
+
+            <corners android:radius="20dp" /> <!-- 모서리 둥글기 설정 (반지름 값 조정 가능) -->
+        </shape>
+    </item>
+
+</layer-list>
